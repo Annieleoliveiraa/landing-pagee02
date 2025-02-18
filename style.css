@@ -25,6 +25,8 @@ header {
 .container-header img {
    width: 168px;
    height: 25px;
+
+   cursor: pointer;
 }
 
 button {
