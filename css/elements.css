@@ -22,3 +22,25 @@ h3 {
 p {
    color: hsl(208, 11%, 55%);
 }
+
+button {
+   width: 200px;
+   height: 50px;
+
+   border: none;
+   border-radius: 27px;
+
+   background-color: transparent;
+   border: 1px solid hsl(322, 100%, 66%);
+   transition: all 800ms ease-in-out;
+   color:  hsl(192, 100%, 9%);
+
+   font-size: 14px;
+   font-weight: 700;
+
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: hsl(322, 100%, 66%);
+}
