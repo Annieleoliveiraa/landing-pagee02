@@ -85,7 +85,7 @@
 
    color:  hsl(192, 100%, 9%);
    background-color: #ffff;
-   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+   box-shadow: 0px 10px 20px 10px rgba(14, 13, 13, 0.1);
    position: absolute;
    left: 50%;
    transform: translate(-50%);
@@ -93,6 +93,8 @@
    z-index: 10;
 
    padding: 20px;
+
+   margin-top: 60px;
 }
 
 .card-button h1 {
@@ -111,7 +113,7 @@
 /* STYLE DO FOOTER/RODAPÉ */
 
 .bg-footer {
-   margin-top: 200px;
+   margin-top: 280px;
    background-color:  hsl(192, 100%, 9%);
    width: 100%;
    min-height: 60vh;
