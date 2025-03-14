@@ -201,6 +201,14 @@
   color: #ffffff;
   padding: 10px;
   text-align: center;
+  cursor: pointer;
+  transition: all 900ms ease-out;
+}
+
+.fa-facebook-f:hover {
+   color: #ffffff;
+   background-color:  hsl(322, 100%, 66%);
+   transform: scale(1.1);
 }
 
 .fa-twitter {
@@ -213,6 +221,14 @@
   color: #ffffff;
   padding: 10px;
   text-align: center;
+  cursor: pointer;
+  transition: all 900ms ease-out;
+}
+
+.fa-twitter:hover {
+   color: #ffffff;
+   background-color:  hsl(322, 100%, 66%);
+   transform: scale(1.1);
 }
 
 .fa-instagram {
@@ -225,4 +241,12 @@
    color: #ffffff;
    padding: 10px;
    text-align: center;
+   cursor: pointer;
+   transition: all 900ms ease-out;
+}
+
+.fa-instagram:hover {
+   color: #ffffff;
+   background-color:  hsl(322, 100%, 66%);
+   transform: scale(1.1);
 }
