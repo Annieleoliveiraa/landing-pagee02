@@ -123,11 +123,6 @@
    padding: 160px 90px;
 }
 
-.card-footer {
-   display: flex;
-   flex-direction: column;
-}
-
 .container-footer img {
    width: 220px;
    height: 30px;
@@ -156,7 +151,7 @@
 }
 
 .box-1 img {
-   width: 20px;
+   width: 18px;
    height: 20px;
 }
 
@@ -167,29 +162,26 @@
 
 .box-3 img {
    width: 20px;
-   height: 20px;
+   height: 18px;
 }
 
 
 .content-footer  {
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
 } 
 
 .box-4 ul li {
    display: flex;
    flex-direction: column;
-   align-items: center;
-   padding: 10px 0;
-   margin-top: -200px;
+   margin-top: -180px;
+   list-style: none;
 }
 
-/*
 .box-5 ul li {
    display: flex;
    flex-direction: column;
-   align-items: center;
-   padding: 10px 0;
-   margin-left: 70px;
+   list-style: none;
 }
-*/ 
