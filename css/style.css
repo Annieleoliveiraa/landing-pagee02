@@ -185,3 +185,44 @@
    flex-direction: column;
    list-style: none;
 }
+
+.main-socialmedia {
+   display: flex;
+   gap: 30px;
+}
+
+.fa-facebook-f {
+   width: 18px;
+   height: 18px;
+   font-size: 17px;
+ 
+  border: 1px solid hsl(193, 100%, 96%);
+  border-radius: 50%;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.fa-twitter {
+  width: 18px;
+  height: 18px;
+  font-size: 17px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.fa-instagram {
+   width: 18px;
+   height: 18px;
+   font-size: 17px;
+   border: 1px solid #ffffff;
+   border-radius: 50%;
+ 
+   color: #ffffff;
+   padding: 10px;
+   text-align: center;
+}
