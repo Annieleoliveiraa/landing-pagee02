@@ -57,3 +57,9 @@ button {
 button:hover {
    background-color: hsl(322, 100%, 66%);
 }
+
+span {
+   color:  hsl(193, 100%, 96%);
+   margin-left: auto;
+   padding-top: 240px;
+}
