@@ -180,10 +180,10 @@
    list-style: none;
 }
 
-.box-5 ul li {
+.box-5 {
    display: flex;
    flex-direction: column;
-   list-style: none;
+   justify-content: center;
 }
 
 .main-socialmedia {
