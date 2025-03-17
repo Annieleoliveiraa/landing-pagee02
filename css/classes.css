@@ -36,3 +36,15 @@
 
    width: 1040px;
 }
+
+.btn {
+   background-color: transparent;
+   border: 1px solid hsl(322, 100%, 66%);
+   color: hsl(192, 100%, 9%);
+   width: 280px;
+   transition: all 800ms ease-in-out;
+}
+
+.btn:hover {
+   background-color: hsl(322, 100%, 66%);
+}
