@@ -37,6 +37,13 @@
    width: 1040px;
 }
 
+.content-three {
+   display: flex;
+   justify-content: space-around;
+
+   align-items: center;
+}
+
 .btn {
    background-color: transparent;
    border: 1px solid hsl(322, 100%, 66%);
