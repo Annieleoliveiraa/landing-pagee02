@@ -47,7 +47,6 @@
    margin-top: 25px;
 }
 
-
 .card-2 p {
    width: 445px;
    color: hsl(208, 11%, 55%);
@@ -57,10 +56,19 @@
 
 .cardimg-2 img {
    width: 350px;
-   height: 240px;
+   height: 260px;
 
-  margin-left: 65px;
-  margin-top: 45px;
+   margin-left: 65px;
+   margin-top: 45px;
+}
+
+.card-3 h3 {
+   color: hsl(192, 100%, 9%);
+}
+
+.card-3 p {
+   width: 428px;
+   margin-top: 12px;
 }
 
 .card-button {
