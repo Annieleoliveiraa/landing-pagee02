@@ -2,6 +2,11 @@
 /* RESPONSIVIDADE DO PROJETO - ADEQUANDO A TELAS MENORES */
 
 @media (max-width: 768px) {
+
+   body {
+      overflow-x: hidden;
+   }
+
    header {
       background-image: url(../images/bg-hero-mobile.svg);
       background-repeat: no-repeat;
@@ -79,8 +84,6 @@
       justify-content: center;
       align-items: center;
       margin-top: 250px;
-
-      box-shadow: 2px 4px 8px 1px black;
   }
 
   .content-one img {
@@ -193,6 +196,10 @@
       margin-top: 25px;
    }
 
+   .bg-footer {
+      width: 110%;
+   }
+
    .container-footer {
       width: 250px;
       display: flex;
@@ -221,8 +228,17 @@
 
    .box-5 {
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      margin-top: 150px;
+
+      margin-top: 25px;
+   }
+
+   .box-5 ul li a {
+      text-align: left;
+      width: 150px;
+      margin-top: 140px;
+      margin-right: 700px;
    }
 
 
@@ -230,7 +246,6 @@
       display: flex;
       justify-content: center;
 
-      margin-top: auto;
-      padding-top: 300px;
+      padding-top: 350px;
    }
 }
