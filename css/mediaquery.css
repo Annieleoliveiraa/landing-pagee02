@@ -51,7 +51,7 @@
       margin-left: auto;
       margin-right: auto;
 
-     text-align: center;
+      text-align: center;
   }
 
    .container-info p {
@@ -188,7 +188,7 @@
 
       border-radius: 14px;
 
-      margin-top: 900px;
+      margin-top: 850px;
    }
 
    .card-button h1 {
@@ -205,7 +205,7 @@
 
    .bg-footer {
       width: 100%;
-      max-height: 180vh;
+      max-height: 200vh;
    }
 
    .container-footer {
@@ -242,5 +242,82 @@
       display: flex;
       margin-right: auto;
       margin-top: 20px;
+   }
+}
+
+
+@media (min-width: 375px) {
+   header {
+      background-image: url(../images/bg-hero-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 75%;
+
+      display: flex;
+      flex-direction: column;
+   }
+
+   .container-header {
+      display: flex;
+      gap: 40px;
+      
+   }
+
+   .container-header img {
+      width: 140px;
+      height: 25px;
+   }
+
+   button {
+      width: 400px;
+   }
+
+   .container-img img {
+      width: 245px;
+      height: 210px;
+   }
+
+   .container-heading p {
+      width: 250px;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+   }
+
+   .main-section {
+      max-width: 270px;
+      height: 80vh;
+      padding: 0 14px;
+   }
+
+   .content-one {
+      margin-top: 215px;
+   }
+
+   .card-1 p {
+      text-align: center;
+   }
+
+   .cardimg-3 img {
+      width: 240px;
+      height: 210px;
+      margin-left: auto;
+   }
+
+   .card-button {
+      width: 250px;
+      height: 160px;
+
+      margin-top: 870px;
+   }
+   .card-button h1 {
+      font-size: 20px;
+   }
+
+   .btn {
+      width: 240px;
+      height: 40px;
+      background-color:  hsl(322, 100%, 66%);
+      color:  hsl(193, 100%, 96%);
    }
 }
