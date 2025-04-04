@@ -2,6 +2,31 @@
 /* RESPONSIVIDADE DO PROJETO - ADEQUANDO A TELAS MENORES */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media (min-width: 375px) and (max-width: 768px) {
 
    body {
@@ -206,61 +231,64 @@
    }
 
 /* RODAPÉ DO PROJETO PARA A VERSÃO MOBILE */    
-   .bg-footer {
-      width: 100%;
-      min-height: 50vh;
+/*
+.bg-footer {
+   width: 100%;
+   min-height: 50vh;
 
-      display: flex;
-      justify-content: right;
-      padding: 0 30px;
+   display: flex;
+   justify-content: right;
+   padding: 0 30px;
 
-      margin-top: -35px;
-   }
-
-   .container-footer {
-      display: flex;
-      flex-direction: column;
-      padding: 120px 40px;
-   }
-
-   .content-footer {
-      display: flex;
-      margin: 180px 0;
-   }
-
-   ul li a {
-      padding: 4px;
-      max-width: 400px;
-   }
-
-   .box-1 .text-info {
-      width: 250px;
-   }
-
-   .box-4 {
-      display: flex;
-      max-width: 300px;
-      padding: 4px;
-   }
-
-   .box-5 {
-      display: flex;
-      max-width: 300px;
-      margin-left: -650px;
-      margin-top: 70px;
-   }
-
-   .main-socialmedia {
-      display: flex;
-      margin-left: auto;
-      margin-right: auto;
-
-      margin-top: 40px;
-   }
-
-   span {
-      text-align: center;
-      width: 100%;
-      margin-top: -210px;
-   }
+   margin-top: -35px;
 }
+
+.container-footer {
+   display: flex;
+   flex-direction: column;
+   padding: 120px 40px;
+}
+
+.content-footer {
+   display: flex;
+   margin: 180px 0;
+}
+
+ul li a {
+   padding: 4px;
+   max-width: 400px;
+}
+
+.box-1 .text-info {
+   width: 250px;
+}
+
+.box-4 {
+   display: flex;
+   max-width: 300px;
+   padding: 4px;
+}
+
+.box-5 {
+   display: flex;
+   max-width: 300px;
+   margin-left: -650px;
+   margin-top: 70px;
+}
+
+.main-socialmedia {
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+
+   margin-top: 40px;
+}
+
+span {
+   text-align: center;
+   width: 100%;
+   margin-top: -210px;
+}
+}
+*/
+
