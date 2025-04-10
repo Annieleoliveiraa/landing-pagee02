@@ -2,7 +2,7 @@
 /* RESPONSIVIDADE DO PROJETO - ADEQUANDO A TELAS MENORES */
 
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
 
    /* FONTES 
       font-family: "Poppins", serif;
